@@ -62,6 +62,35 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <9 7>;
+        };
+
+        left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <7 8>;
+        };
+
+        right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 9>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <32 31>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
