@@ -48,7 +48,6 @@
             bindings = <&mo>, <&kp>;
 
             quick-tap-ms = <220>;
-            require-prior-idle-ms = <220>;
         };
 
         ht: hold_tap {
