@@ -22,6 +22,7 @@
             quick-tap-ms = <220>;
             require-prior-idle-ms = <220>;
             hold-while-undecided;
+            hold-trigger-on-release;
         };
 
         hmr: homerow_mods_right {
@@ -36,6 +37,7 @@
             require-prior-idle-ms = <220>;
             quick-tap-ms = <220>;
             hold-while-undecided;
+            hold-trigger-on-release;
         };
 
         ltm: layer_tap_mod {
